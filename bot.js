@@ -3,12 +3,12 @@ const TelegramBot = require("node-telegram-bot-api");
 
 const token = process.env.BOT_TOKEN;
 
-if (!token)9145297887:AAGIJkLCUTirUZWl8IPLRWtAW0rZ5RykCcw
+if (!token)8739356842:AAEC4KmadBDodan4ChYeXr3qCx0ht9AJfUM
   console.log(9145297887:AAGIJkLCUTirUZWl8IPLRWtAW0rZ5RykCcw"يرجى إضافة توكن البوت");
   process.exit(1);
 }
 
-const bot = new TelegramBot(token, {9145297887:AAGIJkLCUTirUZWl8IPLRWtAW0rZ5RykCcw
+const bot = new TelegramBot(token, {8738123859:AAGIJkLCUTirUZWl8IPLRWtAW0rZ5RykCcw
   polling: true
 });
 
