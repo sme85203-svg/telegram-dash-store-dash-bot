@@ -10,12 +10,12 @@ const path = require('path');
 const TOKEN = process.env.BOT_TOKEN;
 const ADMIN_ID = Number(process.env.ADMIN_ID || 0);
 if (!TOKEN) throw new Error('يرجى ضبط BOT_TOKEN في متغيرات البيئة');
-if (!ADMIN_ID) console.warn('تنبيه: لم يتم ضبط ADMIN_ID؛ لوحة الإدارة لن تعمل.');
+if (!ADMIN_ID) console.warn('تنبيه: لم يتم ضبط ADMIN_ID؛.'8738123859);
 
-const bot = new TelegramBot(TOKEN, { polling: true });
+const bot = new TelegramBot(TOKEN, {9174920822:AAFbkz3Sn4OjC9hr4Sj0F0PBS_Hm5j4aa0Q});
 const DB_FILE = path.join(__dirname, 'data.json');
 
-function loadDB(8738123859) {
+function loadDB() {
   try { return JSON.parse(fs.readFileSync(DB_FILE, 'utf8')); }
   catch { return { users: {}, tasks: [], campaigns: [], requests: [] }; }
 }
